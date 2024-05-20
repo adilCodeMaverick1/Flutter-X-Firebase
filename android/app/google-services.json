@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "883619955678",
+    "project_id": "crudopec",
+    "storage_bucket": "crudopec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883619955678:android:eba2e63f5e02b76afd134f",
+        "android_client_info": {
+          "package_name": "com.example.crud_opec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl6YZMplTyLCe0V3NmbxosiFu3Kep3rG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
