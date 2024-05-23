@@ -3,6 +3,7 @@ import 'package:crud_opec/firestore_service.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
+
 class Home extends StatefulWidget {
   const Home({super.key});
 
@@ -75,14 +76,9 @@ class _HomeState extends State<Home> {
                 String noteText = data['note'];
 
                 return GFListTile(
-                titleText:noteText,
-                  subTitleText: docID,
-                  icon: Icon(Icons.favorite,color:Colors.red)
-                );
-
-
-
-    
+                    titleText: noteText,
+                    subTitleText: docID,
+                    icon: Icon(Icons.favorite, color: Colors.red));
               },
             );
           } else if (snapshot.hasError) {
